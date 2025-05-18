@@ -1,0 +1,15 @@
+{
+  "name": "blockchain-project",
+  "version": "1.0.0",
+  "description": "Blockchain implementation with attack simulations",
+  "main": "src/start.js",
+  "scripts": {
+    "start": "node src/start.js",
+    "cli": "node src/cli.js"
+  },
+  "dependencies": {
+    "crypto-js": "^4.1.1",
+    "elliptic": "^6.5.4",
+    "qrcode": "^1.5.4"
+  }
+}

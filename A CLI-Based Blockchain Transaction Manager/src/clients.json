@@ -1,0 +1,374 @@
+{
+  "clients": [
+    {
+      "clientId": "client1",
+      "address": "04d2d8cf122608b79d0439e09d4be8651f0e70febcc42f15b78462404da73a5ccbf6da6324dbdc5e66833a05645b5b3e3ac983c3f8c11ff14fca79dd0c22eb6be3",
+      "balance": 300,
+      "privateKey": "3b8bd8849daaefc627f339a13524556be3fc402985dfbc14b6d505e3a6218d26",
+      "transactions": [
+        {
+          "fromAddress": "04d2d8cf122608b79d0439e09d4be8651f0e70febcc42f15b78462404da73a5ccbf6da6324dbdc5e66833a05645b5b3e3ac983c3f8c11ff14fca79dd0c22eb6be3",
+          "toAddress": "04221db7d690cc0c40635ab7aa38360a7b320e78a350b6685a069cbb9d50d8a9c36641adab8a51fc2af4de5a0f451353ce8cba5b15c9a8344a362d053b007afa5b",
+          "amount": 100,
+          "timestamp": 1747438128906,
+          "signature": null
+        },
+        {
+          "fromAddress": "04d2d8cf122608b79d0439e09d4be8651f0e70febcc42f15b78462404da73a5ccbf6da6324dbdc5e66833a05645b5b3e3ac983c3f8c11ff14fca79dd0c22eb6be3",
+          "toAddress": "04221db7d690cc0c40635ab7aa38360a7b320e78a350b6685a069cbb9d50d8a9c36641adab8a51fc2af4de5a0f451353ce8cba5b15c9a8344a362d053b007afa5b",
+          "amount": 100,
+          "timestamp": 1747472709135,
+          "signature": "3045022065c31c1a6637527e3a57549276c4214c5dba3e82354f8a7f2816c3049028535b022100e0aad4f94fa6fafc3dfc76a2d1620d3a90945f2903651a90162c3a0beb4e178b"
+        }
+      ],
+      "createdAt": "2025-05-16T23:22:37.818Z",
+      "lastActive": "2025-05-17T09:05:09.163Z",
+      "stats": {
+        "totalSent": 200,
+        "totalReceived": 0,
+        "totalMined": 0,
+        "blocksMined": 0
+      },
+      "assignedMiners": []
+    },
+    {
+      "clientId": "client2",
+      "address": "04221db7d690cc0c40635ab7aa38360a7b320e78a350b6685a069cbb9d50d8a9c36641adab8a51fc2af4de5a0f451353ce8cba5b15c9a8344a362d053b007afa5b",
+      "balance": 2200,
+      "privateKey": "f263c73402ea8041aca21e04db399992b7c7388f95e2bb4265423c4aa56056e2",
+      "transactions": [
+        {
+          "fromAddress": null,
+          "toAddress": "04221db7d690cc0c40635ab7aa38360a7b320e78a350b6685a069cbb9d50d8a9c36641adab8a51fc2af4de5a0f451353ce8cba5b15c9a8344a362d053b007afa5b",
+          "amount": 1000,
+          "timestamp": 1747438210198,
+          "signature": "reward"
+        },
+        {
+          "fromAddress": "04d2d8cf122608b79d0439e09d4be8651f0e70febcc42f15b78462404da73a5ccbf6da6324dbdc5e66833a05645b5b3e3ac983c3f8c11ff14fca79dd0c22eb6be3",
+          "toAddress": "04221db7d690cc0c40635ab7aa38360a7b320e78a350b6685a069cbb9d50d8a9c36641adab8a51fc2af4de5a0f451353ce8cba5b15c9a8344a362d053b007afa5b",
+          "amount": 100,
+          "timestamp": 1747472709135,
+          "signature": "3045022065c31c1a6637527e3a57549276c4214c5dba3e82354f8a7f2816c3049028535b022100e0aad4f94fa6fafc3dfc76a2d1620d3a90945f2903651a90162c3a0beb4e178b"
+        }
+      ],
+      "createdAt": "2025-05-16T23:22:50.652Z",
+      "lastActive": "2025-05-17T09:05:09.163Z",
+      "stats": {
+        "totalSent": 0,
+        "totalReceived": 100,
+        "totalMined": 1000,
+        "blocksMined": 1
+      },
+      "assignedMiners": []
+    },
+    {
+      "clientId": "client3",
+      "address": "0455492cbe673e86f0730be88a3ec5b3da9cc99ea2888fa460eadd5e91e4f36e6cc1ac5e76bd1c4414a4146cac62c2b7b8af785b676bd8202c30546321215b5f66",
+      "balance": 4000,
+      "privateKey": "09ac9350ae59f87de3bd5b4e97fa6162dddeab9d5d3e013e1e42dad4531794b7",
+      "transactions": [
+        {
+          "fromAddress": null,
+          "toAddress": "0455492cbe673e86f0730be88a3ec5b3da9cc99ea2888fa460eadd5e91e4f36e6cc1ac5e76bd1c4414a4146cac62c2b7b8af785b676bd8202c30546321215b5f66",
+          "amount": 1500,
+          "timestamp": 1747438637761,
+          "signature": "reward"
+        },
+        {
+          "fromAddress": null,
+          "toAddress": "0455492cbe673e86f0730be88a3ec5b3da9cc99ea2888fa460eadd5e91e4f36e6cc1ac5e76bd1c4414a4146cac62c2b7b8af785b676bd8202c30546321215b5f66",
+          "amount": 1000,
+          "timestamp": 1747438637769,
+          "signature": "reward"
+        }
+      ],
+      "createdAt": "2025-05-16T23:37:17.757Z",
+      "lastActive": "2025-05-16T23:37:17.798Z",
+      "stats": {
+        "totalSent": 0,
+        "totalReceived": 0,
+        "totalMined": 2500,
+        "blocksMined": 2
+      },
+      "assignedMiners": []
+    },
+    {
+      "clientId": "client4",
+      "address": "04b82f7730e9cef0722ea3e0457fa2c6f9a6396f8047e7bdc55c00f75773433b0e919a082b61584665b95f7d363e1f60e65ed2f0263f09e29a4453dc2c61ef174d",
+      "balance": 6000,
+      "privateKey": "5c8102b21d55303813e63c81520cb2fd7ee47505288e00fd83d63bff97924f01",
+      "transactions": [
+        {
+          "fromAddress": null,
+          "toAddress": "04b82f7730e9cef0722ea3e0457fa2c6f9a6396f8047e7bdc55c00f75773433b0e919a082b61584665b95f7d363e1f60e65ed2f0263f09e29a4453dc2c61ef174d",
+          "amount": 2500,
+          "timestamp": 1747438648070,
+          "signature": "reward"
+        },
+        {
+          "fromAddress": null,
+          "toAddress": "04b82f7730e9cef0722ea3e0457fa2c6f9a6396f8047e7bdc55c00f75773433b0e919a082b61584665b95f7d363e1f60e65ed2f0263f09e29a4453dc2c61ef174d",
+          "amount": 1000,
+          "timestamp": 1747438648070,
+          "signature": "reward"
+        }
+      ],
+      "createdAt": "2025-05-16T23:37:28.068Z",
+      "lastActive": "2025-05-16T23:37:28.075Z",
+      "stats": {
+        "totalSent": 0,
+        "totalReceived": 0,
+        "totalMined": 3500,
+        "blocksMined": 2
+      },
+      "assignedMiners": []
+    },
+    {
+      "clientId": "client5",
+      "address": "04afb3f78efdafd13d5c6cec62591c319bf82a61ebd4bef536a76410b9072cf589cef3cfd18599d42174e571f5c97deeeb90b9459fb3a800094e7de268fb2744e3",
+      "balance": 21000,
+      "privateKey": "1f608a2ef82b85ddf6b19a65e388949639ad5ef503d8a867c041e38ff6c33d4b",
+      "transactions": [
+        {
+          "fromAddress": null,
+          "toAddress": "04afb3f78efdafd13d5c6cec62591c319bf82a61ebd4bef536a76410b9072cf589cef3cfd18599d42174e571f5c97deeeb90b9459fb3a800094e7de268fb2744e3",
+          "amount": 10000,
+          "timestamp": 1747440908672,
+          "signature": "reward"
+        },
+        {
+          "fromAddress": null,
+          "toAddress": "04afb3f78efdafd13d5c6cec62591c319bf82a61ebd4bef536a76410b9072cf589cef3cfd18599d42174e571f5c97deeeb90b9459fb3a800094e7de268fb2744e3",
+          "amount": 1000,
+          "timestamp": 1747440908672,
+          "signature": "reward"
+        }
+      ],
+      "createdAt": "2025-05-17T00:15:08.669Z",
+      "lastActive": "2025-05-17T00:15:08.731Z",
+      "stats": {
+        "totalSent": 0,
+        "totalReceived": 0,
+        "totalMined": 11000,
+        "blocksMined": 2
+      },
+      "assignedMiners": []
+    },
+    {
+      "clientId": "client6",
+      "address": "0443a8adbe0c25598771c7dd08bae3abcd4edfaec5070771f6e45d2b2c4bc6c4ab8f5324575080c3fa8af1b7e7d8208231b63bd88ed191f66bf46f75f4f260931b",
+      "balance": 1600,
+      "privateKey": "3de6b56c50de2e433aa3e05291e0f508f5ea600848e62318d4c78d02fa67d19f",
+      "transactions": [
+        {
+          "fromAddress": null,
+          "toAddress": "0443a8adbe0c25598771c7dd08bae3abcd4edfaec5070771f6e45d2b2c4bc6c4ab8f5324575080c3fa8af1b7e7d8208231b63bd88ed191f66bf46f75f4f260931b",
+          "amount": 250,
+          "timestamp": 1747440946666,
+          "signature": "reward"
+        },
+        {
+          "fromAddress": null,
+          "toAddress": "0443a8adbe0c25598771c7dd08bae3abcd4edfaec5070771f6e45d2b2c4bc6c4ab8f5324575080c3fa8af1b7e7d8208231b63bd88ed191f66bf46f75f4f260931b",
+          "amount": 1000,
+          "timestamp": 1747440946701,
+          "signature": "reward"
+        }
+      ],
+      "createdAt": "2025-05-17T00:15:46.580Z",
+      "lastActive": "2025-05-17T09:37:24.033Z",
+      "stats": {
+        "totalSent": 0,
+        "totalReceived": 0,
+        "totalMined": 1350,
+        "blocksMined": 3
+      },
+      "assignedMiners": []
+    },
+    {
+      "clientId": "client7",
+      "address": "0436ed094a5563c753fd8288d2a58ecece64f9fd9c816ca9202c754389aa69999316f33ea33cfb5c6fc89533e947bd53588d121ca572cf4c8ecdccd47c0270302e",
+      "balance": 2000,
+      "privateKey": "33f4b64808f06e369dd28b5cbb7233339515b4d5656d3c47ca590134c73948f2",
+      "transactions": [
+        {
+          "fromAddress": null,
+          "toAddress": "0436ed094a5563c753fd8288d2a58ecece64f9fd9c816ca9202c754389aa69999316f33ea33cfb5c6fc89533e947bd53588d121ca572cf4c8ecdccd47c0270302e",
+          "amount": 500,
+          "timestamp": 1747440966264,
+          "signature": "reward"
+        },
+        {
+          "fromAddress": null,
+          "toAddress": "0436ed094a5563c753fd8288d2a58ecece64f9fd9c816ca9202c754389aa69999316f33ea33cfb5c6fc89533e947bd53588d121ca572cf4c8ecdccd47c0270302e",
+          "amount": 1000,
+          "timestamp": 1747440966265,
+          "signature": "reward"
+        }
+      ],
+      "createdAt": "2025-05-17T00:16:06.259Z",
+      "lastActive": "2025-05-17T09:28:32.183Z",
+      "stats": {
+        "totalSent": 0,
+        "totalReceived": 0,
+        "totalMined": 1600,
+        "blocksMined": 3
+      },
+      "assignedMiners": []
+    },
+    {
+      "clientId": "client8",
+      "address": "044dbbd6e82a8d592b3bbce528b2078883306a4ff649b14193b10db3906a5cc3cb40a9ec699a8cfb6a52ff3776b342074183517b2a5f939bf457260e107e0d642f",
+      "balance": 2900,
+      "privateKey": "5ebe4b9a67a6a2803599c8550178a781992eadd9daec5a79edb448a9b2719e30",
+      "transactions": [
+        {
+          "fromAddress": null,
+          "toAddress": "044dbbd6e82a8d592b3bbce528b2078883306a4ff649b14193b10db3906a5cc3cb40a9ec699a8cfb6a52ff3776b342074183517b2a5f939bf457260e107e0d642f",
+          "amount": 650,
+          "timestamp": 1747441030736,
+          "signature": "reward"
+        },
+        {
+          "fromAddress": null,
+          "toAddress": "044dbbd6e82a8d592b3bbce528b2078883306a4ff649b14193b10db3906a5cc3cb40a9ec699a8cfb6a52ff3776b342074183517b2a5f939bf457260e107e0d642f",
+          "amount": 1000,
+          "timestamp": 1747441030737,
+          "signature": "reward"
+        },
+        {
+          "fromAddress": "04fff45b41f5225e5b8721b4f307e9f3eec324b8e2043d16a3224fcf2aeb9db7869c577935dc55129d208a1cbd7d8c62b4eee5dbdc7b7db344d35b154e9e5d5e4c",
+          "toAddress": "044dbbd6e82a8d592b3bbce528b2078883306a4ff649b14193b10db3906a5cc3cb40a9ec699a8cfb6a52ff3776b342074183517b2a5f939bf457260e107e0d642f",
+          "amount": 100,
+          "timestamp": 1747472973625,
+          "signature": "3045022100bd5a64de16b36606b862652ae31371e6f4d4d5845061049ce9a32f38c0ed8f5b02205a85e96afea806815b7337120e89c668518a4ab704eb0a79fbfa61ca314eec90"
+        },
+        {
+          "fromAddress": "044dbbd6e82a8d592b3bbce528b2078883306a4ff649b14193b10db3906a5cc3cb40a9ec699a8cfb6a52ff3776b342074183517b2a5f939bf457260e107e0d642f",
+          "toAddress": "04fff45b41f5225e5b8721b4f307e9f3eec324b8e2043d16a3224fcf2aeb9db7869c577935dc55129d208a1cbd7d8c62b4eee5dbdc7b7db344d35b154e9e5d5e4c",
+          "amount": 100,
+          "timestamp": 1747473277892,
+          "signature": "30450220328c33038b8d9f9392522ed6751e814fcf98bd27eb9d1390a1b47bf014d0abd7022100dda9d2d62c1adbce1b92ac626acb2830c6a918af09384fae2cc0536efd573def"
+        },
+        {
+          "fromAddress": "044dbbd6e82a8d592b3bbce528b2078883306a4ff649b14193b10db3906a5cc3cb40a9ec699a8cfb6a52ff3776b342074183517b2a5f939bf457260e107e0d642f",
+          "toAddress": "04fff45b41f5225e5b8721b4f307e9f3eec324b8e2043d16a3224fcf2aeb9db7869c577935dc55129d208a1cbd7d8c62b4eee5dbdc7b7db344d35b154e9e5d5e4c",
+          "amount": 100,
+          "timestamp": 1747473671662,
+          "signature": "304502201e88ddacfff4a594703e182b201ced374462df596eecacbb8aeb9741c3bf098b022100a64eab891bbf278fcdb8bb2090db3e6b7e2cd7d64a1a3db724c16e65e51495a5"
+        },
+        {
+          "fromAddress": "044dbbd6e82a8d592b3bbce528b2078883306a4ff649b14193b10db3906a5cc3cb40a9ec699a8cfb6a52ff3776b342074183517b2a5f939bf457260e107e0d642f",
+          "toAddress": "04fff45b41f5225e5b8721b4f307e9f3eec324b8e2043d16a3224fcf2aeb9db7869c577935dc55129d208a1cbd7d8c62b4eee5dbdc7b7db344d35b154e9e5d5e4c",
+          "amount": 100,
+          "timestamp": 1747473857740,
+          "signature": "3045022069f21b979a9c6225fbbc77552e0adddd8331e307012406f7100b50970694e3e4022100a6fc7e9522a921450633df905b743f3a171e4a63b2f1d75b2eba4d3c2e8b504c"
+        },
+        {
+          "fromAddress": "044dbbd6e82a8d592b3bbce528b2078883306a4ff649b14193b10db3906a5cc3cb40a9ec699a8cfb6a52ff3776b342074183517b2a5f939bf457260e107e0d642f",
+          "toAddress": "04fff45b41f5225e5b8721b4f307e9f3eec324b8e2043d16a3224fcf2aeb9db7869c577935dc55129d208a1cbd7d8c62b4eee5dbdc7b7db344d35b154e9e5d5e4c",
+          "amount": 100,
+          "timestamp": 1747474091988,
+          "signature": "3045022100c96a7b244c9208837c6221c70b1ce08b7f5bcbb0199bc2147e353c6d3336a8ee02203e815a99ff1693176ddf4e08aa5bc5d31759b1f68fc4099b055c09b67358c55b"
+        }
+      ],
+      "createdAt": "2025-05-17T00:17:10.732Z",
+      "lastActive": "2025-05-17T11:10:40.083Z",
+      "stats": {
+        "totalSent": 2200,
+        "totalReceived": 1700,
+        "totalMined": 2950,
+        "blocksMined": 15,
+        "pendingTransactions": 4
+      },
+      "assignedMiners": []
+    },
+    {
+      "clientId": "client9",
+      "address": "04fff45b41f5225e5b8721b4f307e9f3eec324b8e2043d16a3224fcf2aeb9db7869c577935dc55129d208a1cbd7d8c62b4eee5dbdc7b7db344d35b154e9e5d5e4c",
+      "balance": 2750,
+      "privateKey": "8b7b1f525f93d1dcfa07062e7ccee4e7ae5160676c531b2644b0065fd1ac1a32",
+      "transactions": [
+        {
+          "fromAddress": null,
+          "toAddress": "04fff45b41f5225e5b8721b4f307e9f3eec324b8e2043d16a3224fcf2aeb9db7869c577935dc55129d208a1cbd7d8c62b4eee5dbdc7b7db344d35b154e9e5d5e4c",
+          "amount": 900,
+          "timestamp": 1747441049433,
+          "signature": "reward"
+        },
+        {
+          "fromAddress": null,
+          "toAddress": "04fff45b41f5225e5b8721b4f307e9f3eec324b8e2043d16a3224fcf2aeb9db7869c577935dc55129d208a1cbd7d8c62b4eee5dbdc7b7db344d35b154e9e5d5e4c",
+          "amount": 1000,
+          "timestamp": 1747441049434,
+          "signature": "reward"
+        },
+        {
+          "fromAddress": "04fff45b41f5225e5b8721b4f307e9f3eec324b8e2043d16a3224fcf2aeb9db7869c577935dc55129d208a1cbd7d8c62b4eee5dbdc7b7db344d35b154e9e5d5e4c",
+          "toAddress": "044dbbd6e82a8d592b3bbce528b2078883306a4ff649b14193b10db3906a5cc3cb40a9ec699a8cfb6a52ff3776b342074183517b2a5f939bf457260e107e0d642f",
+          "amount": 100,
+          "timestamp": 1747472973625,
+          "signature": "3045022100bd5a64de16b36606b862652ae31371e6f4d4d5845061049ce9a32f38c0ed8f5b02205a85e96afea806815b7337120e89c668518a4ab704eb0a79fbfa61ca314eec90"
+        },
+        {
+          "fromAddress": "044dbbd6e82a8d592b3bbce528b2078883306a4ff649b14193b10db3906a5cc3cb40a9ec699a8cfb6a52ff3776b342074183517b2a5f939bf457260e107e0d642f",
+          "toAddress": "04fff45b41f5225e5b8721b4f307e9f3eec324b8e2043d16a3224fcf2aeb9db7869c577935dc55129d208a1cbd7d8c62b4eee5dbdc7b7db344d35b154e9e5d5e4c",
+          "amount": 100,
+          "timestamp": 1747473277892,
+          "signature": "30450220328c33038b8d9f9392522ed6751e814fcf98bd27eb9d1390a1b47bf014d0abd7022100dda9d2d62c1adbce1b92ac626acb2830c6a918af09384fae2cc0536efd573def"
+        },
+        {
+          "fromAddress": "044dbbd6e82a8d592b3bbce528b2078883306a4ff649b14193b10db3906a5cc3cb40a9ec699a8cfb6a52ff3776b342074183517b2a5f939bf457260e107e0d642f",
+          "toAddress": "04fff45b41f5225e5b8721b4f307e9f3eec324b8e2043d16a3224fcf2aeb9db7869c577935dc55129d208a1cbd7d8c62b4eee5dbdc7b7db344d35b154e9e5d5e4c",
+          "amount": 100,
+          "timestamp": 1747473671662,
+          "signature": "304502201e88ddacfff4a594703e182b201ced374462df596eecacbb8aeb9741c3bf098b022100a64eab891bbf278fcdb8bb2090db3e6b7e2cd7d64a1a3db724c16e65e51495a5"
+        },
+        {
+          "fromAddress": "044dbbd6e82a8d592b3bbce528b2078883306a4ff649b14193b10db3906a5cc3cb40a9ec699a8cfb6a52ff3776b342074183517b2a5f939bf457260e107e0d642f",
+          "toAddress": "04fff45b41f5225e5b8721b4f307e9f3eec324b8e2043d16a3224fcf2aeb9db7869c577935dc55129d208a1cbd7d8c62b4eee5dbdc7b7db344d35b154e9e5d5e4c",
+          "amount": 100,
+          "timestamp": 1747473857740,
+          "signature": "3045022069f21b979a9c6225fbbc77552e0adddd8331e307012406f7100b50970694e3e4022100a6fc7e9522a921450633df905b743f3a171e4a63b2f1d75b2eba4d3c2e8b504c"
+        },
+        {
+          "fromAddress": "044dbbd6e82a8d592b3bbce528b2078883306a4ff649b14193b10db3906a5cc3cb40a9ec699a8cfb6a52ff3776b342074183517b2a5f939bf457260e107e0d642f",
+          "toAddress": "04fff45b41f5225e5b8721b4f307e9f3eec324b8e2043d16a3224fcf2aeb9db7869c577935dc55129d208a1cbd7d8c62b4eee5dbdc7b7db344d35b154e9e5d5e4c",
+          "amount": 100,
+          "timestamp": 1747474091988,
+          "signature": "3045022100c96a7b244c9208837c6221c70b1ce08b7f5bcbb0199bc2147e353c6d3336a8ee02203e815a99ff1693176ddf4e08aa5bc5d31759b1f68fc4099b055c09b67358c55b"
+        }
+      ],
+      "createdAt": "2025-05-17T00:17:29.432Z",
+      "lastActive": "2025-05-17T11:05:32.811Z",
+      "stats": {
+        "totalSent": 1200,
+        "totalReceived": 2100,
+        "totalMined": 1900,
+        "blocksMined": 2,
+        "pendingTransactions": 4
+      },
+      "assignedMiners": [],
+      "pendingBalance": 100
+    },
+    {
+      "clientId": "eslam",
+      "address": "047b6be52293494ca94b584b190fb3ee559c05d3f4b23a7d5fa7626a1c037543039a374bbdc2d98e1de9f15c3b0be69fe21af7be83fc11145ffa542f91abf1c505",
+      "privateKey": "ae8d91fb38e6adb9269fe11106b31ce38298cbc9e333897aa56c08789b4d3003",
+      "balance": 4000,
+      "pendingBalance": 0,
+      "transactions": [],
+      "createdAt": "2025-05-17T11:08:58.766Z",
+      "lastActive": "2025-05-17T11:10:40.072Z",
+      "stats": {
+        "totalSent": 500,
+        "totalReceived": 0,
+        "totalMined": 0,
+        "blocksMined": 0,
+        "pendingTransactions": 0
+      },
+      "assignedMiners": []
+    }
+  ]
+}

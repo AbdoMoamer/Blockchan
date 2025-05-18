@@ -1,0 +1,34 @@
+{
+  "node1": {
+    "userName": "node1",
+    "port": 6001,
+    "publicKey": "04d2d8cf122608b79d0439e09d4be8651f0e70febcc42f15b78462404da73a5ccbf6da6324dbdc5e66833a05645b5b3e3ac983c3f8c11ff14fca79dd0c22eb6be3",
+    "privateKey": null,
+    "createdAt": "2025-05-16T23:03:28.551Z",
+    "lastActive": "2025-05-16T23:03:28.551Z"
+  },
+  "node2": {
+    "userName": "node2",
+    "port": 6002,
+    "publicKey": "04221db7d690cc0c40635ab7aa38360a7b320e78a350b6685a069cbb9d50d8a9c36641adab8a51fc2af4de5a0f451353ce8cba5b15c9a8344a362d053b007afa5b",
+    "privateKey": null,
+    "createdAt": "2025-05-16T23:03:28.584Z",
+    "lastActive": "2025-05-16T23:03:28.584Z"
+  },
+  "node3": {
+    "userName": "node3",
+    "port": 6003,
+    "publicKey": "0455492cbe673e86f0730be88a3ec5b3da9cc99ea2888fa460eadd5e91e4f36e6cc1ac5e76bd1c4414a4146cac62c2b7b8af785b676bd8202c30546321215b5f66",
+    "privateKey": null,
+    "createdAt": "2025-05-16T23:03:28.627Z",
+    "lastActive": "2025-05-16T23:03:28.627Z"
+  },
+  "node4": {
+    "userName": "node4",
+    "port": 6004,
+    "publicKey": "04b82f7730e9cef0722ea3e0457fa2c6f9a6396f8047e7bdc55c00f75773433b0e919a082b61584665b95f7d363e1f60e65ed2f0263f09e29a4453dc2c61ef174d",
+    "privateKey": null,
+    "createdAt": "2025-05-16T23:03:28.655Z",
+    "lastActive": "2025-05-16T23:03:28.655Z"
+  }
+}

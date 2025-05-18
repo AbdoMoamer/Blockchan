@@ -1,0 +1,14 @@
+{
+  "name": "Minnie",
+  "keyPair": {
+    "publicKey": "PUBLIC_KEY_MINNIE",
+    "privateKey": "PRIVATE_KEY_MINNIE"
+  },
+  "connection": {
+    "hostname": "localhost",
+    "port": 9000
+  },
+  "knownMiners": [
+    {"hostname": "localhost", "port": 9001}
+  ]
+}
