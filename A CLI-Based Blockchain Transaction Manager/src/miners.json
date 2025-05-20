@@ -38,16 +38,101 @@
       "privateKey": "1d8677b4e6ba93262c4e7b31116beb1dacb611b0bf682eb447360075d5cdc952",
       "clientAddress": null,
       "status": "available",
-      "balance": 100,
+      "balance": 300,
       "stats": {
-        "totalMined": 200,
-        "blocksMined": 1,
-        "lastMinedBlock": "2025-05-17T11:10:40.094Z",
+        "totalMined": 600,
+        "blocksMined": 3,
+        "lastMinedBlock": "2025-05-18T19:40:51.736Z",
         "efficiency": 100,
         "uptime": 0
       },
       "createdAt": "2025-05-17T11:09:25.930Z",
-      "lastActive": "2025-05-17T11:10:40.094Z"
+      "lastActive": "2025-05-18T19:40:51.736Z"
+    },
+    {
+      "id": "test",
+      "address": "04d312a1f04d51e726b157a2ecf4d36c727e948c0c81235cbade79d6d920d0f31e414e12ef6aaebf801b70b7306a78c2c5ba36cb979b727b2edcd2b9124f2e34d2",
+      "privateKey": "d3f636e88af741a465334f6428bae724c727f0c0e703780f539b7d57850dbcb7",
+      "clientAddress": null,
+      "status": "available",
+      "balance": 0,
+      "stats": {
+        "totalMined": 0,
+        "blocksMined": 0,
+        "lastMinedBlock": null,
+        "efficiency": 100,
+        "uptime": 0
+      },
+      "createdAt": "2025-05-18T19:36:41.509Z",
+      "lastActive": "2025-05-18T19:36:41.509Z"
+    },
+    {
+      "id": "tester2",
+      "address": "048ed5b86f069d7235015e713cd497d1df86853bffd3183e4abd82e8177d7022730e4abfdf8f8eb4d30828438886b08bcdff15642a33cf5e06f4390253ebfceb6e",
+      "privateKey": "d5d6e9e2949177f8ecd84c0f459a32cc981609ec05280576c6083c2798419505",
+      "clientAddress": null,
+      "status": "available",
+      "balance": 0,
+      "stats": {
+        "totalMined": 0,
+        "blocksMined": 0,
+        "lastMinedBlock": null,
+        "efficiency": 100,
+        "uptime": 0
+      },
+      "createdAt": "2025-05-18T19:50:01.441Z",
+      "lastActive": "2025-05-18T19:50:01.441Z"
+    },
+    {
+      "id": "tester3",
+      "address": "04e0cb4e3487706feb69d1f44a24ef2f6eee80245b2378fdef1822b8c723541a71805c0a081ff36cba7b456fa371c87dbc4e40d0b2751c58ca6dabcdf39907f3fe",
+      "privateKey": "ec79f9267ce14b3045ff83ce28c2cce29f23a06c263ea984c8b88d6ef17eeecf",
+      "clientAddress": null,
+      "status": "available",
+      "balance": 0,
+      "stats": {
+        "totalMined": 0,
+        "blocksMined": 0,
+        "lastMinedBlock": null,
+        "efficiency": 100,
+        "uptime": 0
+      },
+      "createdAt": "2025-05-18T19:54:02.105Z",
+      "lastActive": "2025-05-18T19:54:02.105Z"
+    },
+    {
+      "id": "T4",
+      "address": "046ca3ad88cdeda379e79ec5d188d8c392d5df27d39c27ac8f0d970dc0c19552d161fb2cbc993f1379c540e0652c15b97ce6d129afb35dbcbdc6bbef5148557f9b",
+      "privateKey": "de57e380eea055cc4cb7113b626d87a5fa7eb4855d809d17faa208387e32a8c2",
+      "clientAddress": null,
+      "status": "available",
+      "balance": 100,
+      "stats": {
+        "totalMined": 200,
+        "blocksMined": 1,
+        "lastMinedBlock": "2025-05-18T19:57:56.161Z",
+        "efficiency": 100,
+        "uptime": 0
+      },
+      "createdAt": "2025-05-18T19:56:50.359Z",
+      "lastActive": "2025-05-18T19:57:56.161Z"
+    },
+    {
+      "id": "T1",
+      "address": "04f02ea939bc4ccbf61b4d883afaef4c1fdefb99d3447f79dd2aa2b51fe143faed1e74a7074c035d56a4e38a2199e28055dc40dd6a27926f403f5c1649eb37fda8",
+      "privateKey": "9b047ca7a105c69e807df06a4620ad7630ece303214a88f8625d3aef4e84cfeb",
+      "clientAddress": null,
+      "status": "available",
+      "balance": 100,
+      "stats": {
+        "totalMined": 200,
+        "blocksMined": 1,
+        "lastMinedBlock": "2025-05-18T20:04:49.127Z",
+        "efficiency": 100,
+        "uptime": 0
+      },
+      "createdAt": "2025-05-18T20:02:17.475Z",
+      "lastActive": "2025-05-18T20:04:49.127Z"
     }
   ]
 }

@@ -287,7 +287,7 @@
     {
       "clientId": "client9",
       "address": "04fff45b41f5225e5b8721b4f307e9f3eec324b8e2043d16a3224fcf2aeb9db7869c577935dc55129d208a1cbd7d8c62b4eee5dbdc7b7db344d35b154e9e5d5e4c",
-      "balance": 2750,
+      "balance": 41100,
       "privateKey": "8b7b1f525f93d1dcfa07062e7ccee4e7ae5160676c531b2644b0065fd1ac1a32",
       "transactions": [
         {
@@ -341,13 +341,13 @@
         }
       ],
       "createdAt": "2025-05-17T00:17:29.432Z",
-      "lastActive": "2025-05-17T11:05:32.811Z",
+      "lastActive": "2025-05-18T20:04:49.122Z",
       "stats": {
         "totalSent": 1200,
-        "totalReceived": 2100,
+        "totalReceived": 3500,
         "totalMined": 1900,
         "blocksMined": 2,
-        "pendingTransactions": 4
+        "pendingTransactions": 5
       },
       "assignedMiners": [],
       "pendingBalance": 100
@@ -356,13 +356,13 @@
       "clientId": "eslam",
       "address": "047b6be52293494ca94b584b190fb3ee559c05d3f4b23a7d5fa7626a1c037543039a374bbdc2d98e1de9f15c3b0be69fe21af7be83fc11145ffa542f91abf1c505",
       "privateKey": "ae8d91fb38e6adb9269fe11106b31ce38298cbc9e333897aa56c08789b4d3003",
-      "balance": 4000,
+      "balance": 1200,
       "pendingBalance": 0,
       "transactions": [],
       "createdAt": "2025-05-17T11:08:58.766Z",
-      "lastActive": "2025-05-17T11:10:40.072Z",
+      "lastActive": "2025-05-18T20:04:49.116Z",
       "stats": {
-        "totalSent": 500,
+        "totalSent": 1900,
         "totalReceived": 0,
         "totalMined": 0,
         "blocksMined": 0,
